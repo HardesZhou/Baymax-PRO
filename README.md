@@ -1,5 +1,16 @@
+<p align="center">
+  <img src="assets/compose.webp" width="500" alt="Baymax Cover" />
+</p>
+
 # 🧽 SpongeBob-LLM · 智愈计划
 > **从零构建：稠密架构、思维链蒸馏与强化学习的可复现工程**
+
+"Hello, I am Baymax."
+
+(●—●)大白(Baymax)的灵魂源于那枚红色的芯片，而大模型的生命始于第一行代码。
+本项目是我对 AGI 最纯粹的一次从零探索：从随机初始化到逻辑涌现，赋予稠密架构（Dense）以理性的温度。
+从零开始，构建属于我的人工智能初心。
+
 
 ![Python](https://img.shields.io/badge/Python-3.10%2B-blue)
 ![PyTorch](https://img.shields.io/badge/PyTorch-2.x-orange)
