@@ -13,13 +13,3 @@ build/
 .idea/
 *.swp
 *.swo
-
-# 训练输出和模型文件
-out_grpo/
-*.pth
-*.pt
-*.ckpt
-
-# 数据文件（如果太大可以取消注释）
-# data/
-*.meta

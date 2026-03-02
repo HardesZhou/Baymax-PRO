@@ -1,0 +1,13 @@
+{
+  "vocab_size": 15000,
+  "seq_len": 512,
+  "num_chunks": 2629239,
+  "total_tokens": 1346170766,
+  "num_samples": 4733030,
+  "dropped_tokens": 398,
+  "dtype": "uint16",
+  "shape": [
+    2629239,
+    512
+  ]
+}
