@@ -19,9 +19,9 @@
 
 ---
 
-## 🧭 总览（图表占位）
+## 🧭 总览
 
-> 建议将两份文档中的“总览流程图”放在此处，作为面试官的第一视觉入口。
+项目全流程如下：
 
 ![项目总览图](assets/fig_overview_pipeline.png)
 
@@ -61,17 +61,19 @@ flowchart TD
 
 ---
 
-## 📌 图表放置建议（对应两份文档）
+## 🖼️ 可视化与图表
 
-| 位置 | 建议放置的图表 | 文件名建议 |
-|---|---|---|
-| 总览 | 项目全流程图 | `assets/fig_overview_pipeline.png` |
-| Tokenizer | 词表构建流程 / 压缩率对比 | `assets/fig_tokenizer_compression.png` |
-| Pretrain | 数据清洗/去重流程图 | `assets/fig_pretrain_data_pipeline.png` |
-| Pretrain | Loss 曲线 + C3/XCOPA 指标曲线 | `assets/fig_pretrain_metrics.png` |
-| SFT | 学习率敏感性对比图 | `assets/fig_sft_lr_sensitivity.png` |
-| SFT | mini_bench 评测截图/表格 | `assets/fig_sft_judge_table.png` |
-| RL | GRPO 训练 reward / KL 曲线 | `assets/fig_grpo_reward_kl.png` |
+![Tokenizer 压缩率与词表规模](assets/fig_tokenizer_compression.png)
+
+![预训练数据清洗与去重流程](assets/fig_pretrain_data_pipeline.png)
+
+![预训练指标曲线（Loss / C3 / XCOPA）](assets/fig_pretrain_metrics.png)
+
+![SFT 学习率敏感性对比](assets/fig_sft_lr_sensitivity.png)
+
+![SFT mini_bench / Judge 评估概览](assets/fig_sft_judge_table.png)
+
+![GRPO Reward 与 KL 曲线](assets/fig_grpo_reward_kl.png)
 
 ---
 
@@ -186,7 +188,7 @@ Baymax-PRO/
 
 ---
 
-## 📝 面试加分项：思考与感悟
+## 📝 工程思考与复盘
 
 > **开发者手记**  
 全链路训练的关键不在“能跑”，而在“稳定、可复现、可解释”。  
@@ -195,7 +197,7 @@ Baymax-PRO/
 2) **显存优化**：混合精度、梯度累积与 KV Cache 协同；  
 3) **对齐策略**：格式约束 + Judge 打分，确保可解释的偏好优化。  
 
-我的目标不仅是训练一个模型，而是搭建一条**可被复述与追溯的研究级训练链路**。
+我的目标不仅是训练一个模型，而是搭建一条**可复现、可追溯、可解释的研究级训练链路**。
 
 ---
 
