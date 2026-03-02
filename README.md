@@ -21,9 +21,7 @@
 
 ## 🧭 总览
 
-项目全流程如下：
-
-![项目总览图](assets/fig_overview_pipeline.png)
+项目全流程如下（见下方流程图与可视化示例）。
 
 ---
 
@@ -63,9 +61,9 @@ flowchart TD
 
 ## 🖼️ 可视化与图表
 
-![Tokenizer 压缩率与词表规模](assets/fig_tokenizer_compression.png)
+![模型架构](assets/model.png)
 
-![预训练数据清洗与去重流程](assets/fig_pretrain_data_pipeline.png)
+![预训练数据清洗与去重流程](assets/pretraindata.png)
 
 ![预训练指标曲线（Loss / C3 / XCOPA）](assets/fig_pretrain_metrics.png)
 
@@ -75,6 +73,7 @@ flowchart TD
 
 ![GRPO Reward 与 KL 曲线](assets/fig_grpo_reward_kl.png)
 
+![GRPO Judge评估概览](assets/fig_grpo_judge.png)
 ---
 
 ## 📐 关键配置（默认）
