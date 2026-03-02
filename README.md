@@ -2,7 +2,7 @@
   <img src="assets/compose.webp" width="500" alt="Baymax Cover" />
 </p>
 
-# 🧽 SpongeBob-LLM · 智愈计划
+# 🧽 Baymax PRO
 > **从零构建：稠密架构、思维链蒸馏与强化学习的可复现工程**
 
 "Hello, I am Baymax."
